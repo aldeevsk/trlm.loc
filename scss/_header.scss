@@ -1,0 +1,80 @@
+
+header {
+    height: 166px;
+    .logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 10px;
+        font-weight: bold;
+        .burger {
+            width: 22px;
+            height: 22px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            span {
+                width: 22px;
+                height: 3px;
+                background: $black;
+                &.bottom {
+                    width: 13px;
+                }
+            }
+        }
+    }
+    .title {
+        height: 60px;
+        background: $white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 20px;
+    }
+    .actions {
+        display: flex;
+        svg {
+            width: 30px;
+            height: 24px;
+        }
+    }
+
+    .cityes {
+        width: 95%;
+        height: 44px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        .phone {
+            font-size: 18px;
+            font-weight: bold;
+        }
+    }
+    .nav-button {
+        width: 95%;
+        height: 50px;
+        background: $primary;
+        color: $white;
+        margin: 0 auto;
+        .burger {
+            width: 22px;
+            height: 22px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            span {
+                width: 22px;
+                height: 3px;
+                background: $white;
+            }
+        }
+
+    }
+    .nav-button:hover {
+        background: #1c69d4c5;
+    }
+    .nav-button:active {
+        background: #1c69d4f1;
+    }
+}

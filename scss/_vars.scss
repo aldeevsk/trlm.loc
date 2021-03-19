@@ -1,0 +1,49 @@
+/* ============== Braikepoints ========================== */
+
+$xs: 360px;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;
+
+/* ============= Colors ================================= */
+
+$color-body: #F0F0F0;
+$black: #222222;
+$primary: #1C69D4;
+$primary-light: #01B7E6;
+$grey: #587478;
+$green: #3CA255;
+$white: #fff;
+
+
+/* ============= Fonts ================================== */
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('GothamPro.woff2') format('woff2'),
+        url('GothamPro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('GothamPro-Bold.woff2') format('woff2'),
+        url('GothamPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+$fz-p: 0.88rem;
+$fz-li: 0.94rem;
+$fz-base: 1rem;
+$fz-title: 1.5rem;
+$fz-banner: 1.44rem;
+
+
+
+/*  */

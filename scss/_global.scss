@@ -1,0 +1,89 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Gotham Pro';
+    font-weight: normal;
+    color: $black;
+    background: $color-body;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+h2 {
+    font-size: $fz-title;
+}
+
+/* ========================= Buttons ==================== */
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 16px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: $fz-base;
+    font-weight: bold;
+}
+
+
+.more {
+    fill: $white;
+    svg {
+        width: 39px;
+        height: 22px;
+        fill: inherit;
+    }
+}
+
+.more:hover {
+    border: 2px solid $white;
+}
+
+.more:active {
+    color: $primary;
+    fill: $primary;
+    border: 2px solid $primary;
+}
+
+.bordered-green {
+    border: 2px solid #3CA255;
+    color: #3CA255;
+    height: 52px;
+    text-transform: none;
+}
+.bordered-green:active {
+    box-shadow: inset 1px 1px #3CA255, inset -1px -1px #3CA255;
+}
+
+.bordered-blue {
+    border: 2px solid #1C69D4;
+    color: #1C69D4;
+    height: 52px;
+    text-transform: none;
+}
+.bordered-blue:active {
+    box-shadow: inset 1px 1px #1C69D4, inset -1px -1px #1C69D4;
+}
+
+.bottom-border-white {
+    border-bottom: 2px solid $white;
+    padding: 5px 0;
+}
+.bottom-border-white:hover {
+    color: rgba(255, 255, 255, 0.5);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+.bottom-border-white:active {
+    color: rgba(255, 255, 255, 0.8);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+}
+
+
+

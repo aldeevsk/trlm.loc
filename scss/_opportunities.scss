@@ -1,0 +1,60 @@
+#opportunities {
+    .banner {
+        width: 100%;
+        background: $white;
+        padding: 20px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        row-gap: 10px;
+    }
+    .banner-text {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .phone-info {
+        font-size: $fz-li;
+    }
+    .phone-number {
+        font-size: $fz-title;
+    }
+    svg {
+         fill: #3CA255;
+         width: 30px;
+         height: 31px;
+    }
+    @media(min-width: 640px) {
+        .banner {
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .banner-text {
+            width: 48%;
+        }
+        button {
+            width: 50%;
+        }
+    }
+
+    @media(min-width: 960px) {
+        flex-direction: row;
+        height: 236px;
+        .banner {
+            width: 32%;
+            height: 100%;
+            flex-direction: column;
+        }
+        .banner-text {
+            width: 100%;
+        }
+        button {
+            width: 100%;
+        }
+    }
+    @media(min-width: 1280px) {
+        
+    }
+}
+
