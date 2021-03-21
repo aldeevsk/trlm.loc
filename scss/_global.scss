@@ -17,6 +17,24 @@ h2 {
     font-size: $fz-title;
 }
 
+.phone {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.lg {
+    display: none;
+}
+
+@media(min-width: 640px) {
+    .xs {
+        display: none;
+    }
+    .lg {
+        display: flex;
+    }
+}
+
 /* ========================= Buttons ==================== */
 
 button {
